@@ -5,49 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section class="home" id="home">
     <div id="header">
        
 <div class="container">
     <nav>
-        <img src="images/AK-removebg-preview.png" id="logo">
+        <img src="images/ak-logo.png" id="logo">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#About">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="projects">Projects</a></li>
+    
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <div class="header-text">
        
         <h1>Hi, I'm <span>Aniso </span><br>A software developer <br>From Kenya</h1>
-        <img src="images/nisa.png" id="img1">
+        
 
-
+        <div class="social-media">
+            <a href="https://twitter.com/kilas_aniso"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.linkedin.com/in/aniso-kilas/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/kilas-Aniso"><i class='bx bxl-github' ></i></a>
+        </div>
+        <a href="https://docs.google.com/document/d/1EiWU2-KPlT5K-ad3vfT9dQe8DqHlTttKE1fSnNRmkDo/edit" class="btn">Resume</a>
+            </div>
+            <img src="images/nisa.png" id="img1">
     </div>
 
 
 </div>
 
     </div>
+</section>
 <!-- ------------------About------------------ -->
-    <!-- <div id="about">
-        <div class="container">
-          <div class="row">
-             <div class="about-column-1">
-               <img src="images/nisa.png">
-             <div class="about-column-2">
-               <h1 class="sub-title">About me</h1>
-
-              </div>
-
-              </div>
-          </div>
-        </div>
-    </div> -->
     <section class="About" id="About">
         <div class="aboutme">
             <div class="home2-img">
@@ -56,9 +54,55 @@
             <h1>About Me</h1>
             <h5>Software <span> Developer </span></h5>
             <p>I am a Software developer who has skills in javascript,Python,Kotlin,Html and Css. <br>I can write clean code to create interactive websites and applicatins <br>I can also design perfect designs</p>
-            <button type="button">Let's connect</button>
+            <button id="btn1" type="button">Let's connect</button>
         </div>
         </div>
             </section>
+
+<!-- ------------------Projects------------------ -->
+<section class="project" id="projects">
+<h2 id="proj">Project</h2>
+<div class="container1" >
+    <div class="card" >
+        <img src="images/6195678.jpg" alt="" > 
+<div class="intro">
+    <a href="file:///home/student/Kilas-Projects/Dice-Roll-Simulator/index.html">
+<h2>Dice Roll Simulator</h1>
+</a>
+<p>The <span> Dice Roll Simulator</span> is a project that I coded
+     to simulate the rolling of dice. It provides a 
+     virtual experience of rolling a standard
+      six-sided die and generates random numbers
+       between 1 and 6.</p>
+</div>
+    </div>
+    <div class="card">
+        <img src="images/dice.jpg" alt=""> 
+<div class="intro">
+<h2>Dice Roll Simulator</h1>
+<p>The <span> Dice Roll Simulator</span>is a project that I coded
+     to simulate the rolling of dice. It provides a 
+     virtual experience of rolling a standard
+      six-sided die and generates random numbers
+       between 1 and 6.</p>
+</div>
+    </div>
+    <div class="card">
+        <img src="images/dice.jpg" alt=""> 
+<div class="intro">
+<h2>Dice Roll Simulator</h1>
+<p>The <span> Dice Roll Simulator</span> is a project that I coded
+     to simulate the rolling of dice. It provides a 
+     virtual experience of rolling a standard
+      six-sided die and generates random numbers
+       between 1 and 6.</p>
+</div>
+    </div>
+</div>
+
+
+
+</section>
+        
 </body>
 </html>
